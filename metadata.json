@@ -1,0 +1,6 @@
+{
+  "name": "NexURL",
+  "description": "The original URL shortener. Create short, memorable links, generate QR codes, customize aliases, and track link analytics with NexURL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

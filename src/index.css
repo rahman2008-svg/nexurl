@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Glowing background effects */
+.bg-navy-dark {
+  background-color: #061d33;
+}
+.bg-navy-card {
+  background-color: #0a2745;
+}
+.text-brand-green {
+  color: #00b997;
+}
+.bg-brand-green {
+  background-color: #00b997;
+}
+.bg-brand-green-hover:hover {
+  background-color: #00a384;
+}
+.border-brand-green {
+  border-color: #00b997;
+}
+
